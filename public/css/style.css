@@ -1,15 +1,4 @@
 /*
-$colour-primary: #15DEA5;
-$colour-secondary: #001534;
-$colour-accent: #D6FFF5;
-$colour-white: #fff;
-$colour-invalid: #DB464B;
-
-$heading-shadow-size: .55rem;
-$layout-margin: 6rem;
-$grid-gutter: $layout-margin * .25;
-*/
-/*
 @function lightness-shift($colour) {
     @if (lightness($colour) < 25%){
         @return lighten($colour, 10%);
@@ -58,8 +47,76 @@ $grid-gutter: $layout-margin * .25;
     }
 }
 */
-header {
-  color: red;
+html, body, * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+.header__logo {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  width: 165px;
+  height: 28px;
+}
+
+.localisation {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  color: #353535;
+  font-size: 12px;
+  background: linear-gradient(#cfcfcf 0%, #eaeaea 12%);
+}
+.localisation i {
+  position: relative;
+  right: 19px;
+}
+
+.slogan {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.slogan__one {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 45px;
+  width: 50%;
+}
+.slogan__two {
+  font-size: 13px;
+  font-weight: 200;
+  padding-top: 23px;
+  padding-bottom: 33px;
+  width: 70%;
+}
+.slogan__button {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+  height: 50px;
+  background: linear-gradient(#FF79DA 0%, #9356DC 100%);
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
