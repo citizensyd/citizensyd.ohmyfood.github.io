@@ -7,46 +7,6 @@
     }
 }
 */
-/*exemple
-@mixin heading-shadow($colour:lightness-shift($colour-primary), $offset: $heading-shadow-size){
-    text-shadow: $offset $offset $colour;
-}
-
-@mixin border($colour:$colour-primary) {
-    border: .1rem solid $colour;
-}
-
-@mixin img-ratio {
-    width: 100%;
-        display: block;
-        overflow: hidden;
-        padding-top: 56.25%;
-        position: relative;
-        & img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 100%;
-            transform: translate(-50%, -50%);
-        }
-}
-
-@mixin btn {
-    padding: $grid-gutter;
-    @include border;
-    color: $colour-primary;
-    background: $colour-secondary;
-    cursor: pointer;
-    &:hover{
-        background: $colour-primary;
-        color: $colour-accent;
-    }
-    &--full-width {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-*/
 html, body, * {
   margin: 0;
   box-sizing: border-box;
@@ -109,6 +69,28 @@ html, body, * {
   color: white;
 }
 
+.operation {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+}
+.operation__title {
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 54px;
+  padding-bottom: 34px;
+}
+
+.fa-primary-color {
+  color: #7e7e7e;
+}
+
+.fa-secondary-color {
+  color: #9356DC;
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -117,6 +99,59 @@ html, body, * {
   height: 50px;
   background: linear-gradient(#FF79DA 0%, #9356DC 100%);
   border-radius: 25px;
+}
+
+.operation__button {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.operation__button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 10px;
+  left: 12.5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #9356DC;
+  color: white;
+}
+.operation__button2 {
+  width: 320px;
+  height: 75px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 200;
+  box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.1);
+}
+.operation__button2 i {
+  position: relative;
+  left: 30px;
+}
+.operation__button3 {
+  width: 320px;
+  height: 75px;
+  background-color: #f5edff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 200;
+  box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.1);
+}
+.operation__button3 i {
+  position: relative;
+  left: 30px;
+}
+.operation__button--text {
+  position: relative;
+  left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
