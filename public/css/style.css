@@ -65,7 +65,7 @@ html, body, * {
 }
 .slogan__button {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 700;
   color: white;
 }
 
@@ -82,10 +82,63 @@ html, body, * {
   padding-top: 54px;
   padding-bottom: 34px;
 }
-.operation__title--text {
+.operation__text {
   display: flex;
   justify-content: flex-start;
   width: 80%;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1450px;
+  background-color: #f6f6f6;
+}
+.restaurants__title {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.restaurants__card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.restaurants__card img {
+  width: 100%;
+  height: 175px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+.restaurants__identity {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants__identity i {
+  position: relative;
+  right: 15px;
+  bottom: 20px;
+  align-self: flex-end;
+}
+.restaurants__name {
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.restaurants__sites {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  font-size: 13px;
+  font-weight: 200;
 }
 
 .fa-primary-color {
