@@ -27,6 +27,33 @@ html, body, * {
   height: 28px;
 }
 
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #353535;
+}
+.footer__logo {
+  width: 80%;
+  margin-top: 25px;
+}
+.footer__logo img {
+  height: 18px;
+}
+.footer ul {
+  margin-top: 15px;
+  width: 80%;
+  list-style-type: none;
+  padding: 0;
+}
+.footer li {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+
 .localisation {
   align-items: center;
   display: flex;
@@ -92,7 +119,7 @@ html, body, * {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1450px;
+  height: 1226px;
   background-color: #f6f6f6;
 }
 .restaurants__title {
@@ -147,6 +174,10 @@ html, body, * {
 
 .fa-secondary-color {
   color: #9356DC;
+}
+
+.fa-white {
+  color: #fff;
 }
 
 .button {
