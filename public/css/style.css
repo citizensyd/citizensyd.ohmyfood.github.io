@@ -54,6 +54,10 @@ a, a:visited, a:hover, a:focus, a:active {
   color: white;
   margin-bottom: 10px;
 }
+.footer i {
+  color: #fff;
+  padding-right: 20px;
+}
 
 .localisation {
   align-items: center;
