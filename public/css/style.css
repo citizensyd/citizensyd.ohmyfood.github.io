@@ -125,6 +125,10 @@ a, a:visited, a:hover, a:focus, a:active {
   display: flex;
   justify-content: center;
   width: 100%;
+  opacity: 0.9;
+}
+.restaurants a:hover {
+  opacity: 1;
 }
 .restaurants__title {
   padding-top: 60px;
@@ -265,18 +269,6 @@ a, a:visited, a:hover, a:focus, a:active {
   margin-top: 50px;
 }
 
-.fa-primary-color {
-  color: #7e7e7e;
-}
-
-.fa-secondary-color {
-  color: #9356DC;
-}
-
-.fa-white {
-  color: #fff;
-}
-
 .button {
   display: flex;
   justify-content: center;
@@ -289,6 +281,10 @@ a, a:visited, a:hover, a:focus, a:active {
   font-size: 13px;
   font-weight: 700;
   color: white;
+}
+.button:hover {
+  cursor: pointer;
+  background: linear-gradient(#ff8de0 0%, #9e67e0 100%);
 }
 
 .operation__button {
@@ -324,23 +320,16 @@ a, a:visited, a:hover, a:focus, a:active {
 }
 .operation__button2 i {
   position: relative;
+  color: #7e7e7e;
   left: 30px;
 }
-.operation__button3 {
-  width: 80%;
-  height: 75px;
+.operation__button2:hover {
+  cursor: pointer;
   background-color: #f5edff;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.13);
 }
-.operation__button3 i {
-  position: relative;
-  left: 30px;
+.operation__button2:hover i {
+  color: #9356DC;
 }
 .operation__button--text {
   position: relative;
