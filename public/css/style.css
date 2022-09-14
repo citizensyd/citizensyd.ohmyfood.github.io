@@ -31,6 +31,16 @@ a, a:visited, a:hover, a:focus, a:active {
     opacity: 0;
   }
 }
+@keyframes progressiveDish {
+  0% {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 .loader {
   position: fixed;
   height: 100%;
@@ -52,7 +62,7 @@ a, a:visited, a:hover, a:focus, a:active {
   display: flex;
 }
 
-.loader-bars:before {
+.loader-bars::before {
   content: "";
   width: 10px;
   height: 30px;
@@ -60,7 +70,7 @@ a, a:visited, a:hover, a:focus, a:active {
   animation: grow 1s linear infinite;
 }
 
-.loader-bars:after {
+.loader-bars::after {
   content: "";
   position: relative;
   left: 15px;
@@ -70,7 +80,7 @@ a, a:visited, a:hover, a:focus, a:active {
   animation: grow 1s linear 0.25s infinite;
 }
 
-.loader span:before {
+.loader span::before {
   content: "";
   display: flex;
   position: relative;
@@ -326,6 +336,20 @@ a, a:visited, a:hover, a:focus, a:active {
   margin-top: 14px;
   border-radius: 15px;
   background-color: #fff;
+  animation: progressiveDish 1s;
+  animation-fill-mode: backwards;
+}
+.menu__dish--delay-1 {
+  animation-delay: 0s;
+}
+.menu__dish--delay-2 {
+  animation-delay: 0.1s;
+}
+.menu__dish--delay-3 {
+  animation-delay: 0.2s;
+}
+.menu__dish--delay-4 {
+  animation-delay: 0.3s;
 }
 .menu__name {
   width: 90%;
