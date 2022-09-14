@@ -11,14 +11,76 @@ a, a:visited, a:hover, a:focus, a:active {
   background: inherit;
 }
 
-@keyframes fill-heart {
-  0% {
-    transform: scaleX(0);
-  }
+@keyframes loader {
   100% {
-    transform: scaleX(1);
+    opacity: 0;
+    z-index: -10;
   }
 }
+@keyframes grow {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+}
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loader Bars*/
+.loader-bars {
+  display: flex;
+}
+
+.loader-bars:before {
+  content: "";
+  width: 10px;
+  height: 30px;
+  background-color: #9356DC;
+  animation: grow 1s linear infinite;
+}
+
+.loader-bars:after {
+  content: "";
+  position: relative;
+  left: 15px;
+  width: 10px;
+  height: 30px;
+  background-color: #FF79DA;
+  animation: grow 1s linear 0.25s infinite;
+}
+
+.loader span:before {
+  content: "";
+  display: flex;
+  position: relative;
+  left: 30px;
+  width: 10px;
+  height: 30px;
+  background-color: #99E2D0;
+  animation: grow 1s linear 0.5s infinite;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -137,10 +199,6 @@ a, a:visited, a:hover, a:focus, a:active {
   display: flex;
   justify-content: center;
   width: 100%;
-  opacity: 0.9;
-}
-.restaurants a:hover {
-  opacity: 1;
 }
 .restaurants__title {
   padding-top: 60px;
