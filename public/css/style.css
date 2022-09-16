@@ -428,6 +428,7 @@ a, a:visited, a:hover, a:focus, a:active {
   height: 70px;
   background-color: #99E2D0;
   transition: transform 0.5s;
+  border-radius: 0px 15px 15px 0px;
 }
 .menu__square i {
   color: #fff;
