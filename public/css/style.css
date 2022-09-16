@@ -163,7 +163,7 @@ h5 {
   list-style-type: none;
   padding: 0;
 }
-.footer li {
+.footer ul, .footer h5, .footer h4 {
   font-family: roboto, sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -191,7 +191,7 @@ h5 {
 }
 
 .slogan {
-  height: 290px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -246,6 +246,11 @@ h5 {
   height: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
+  opacity: 0.8;
+}
+.restaurants a:hover {
+  opacity: 1;
+  box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.1);
 }
 .restaurants__title {
   padding-top: 60px;
@@ -290,7 +295,7 @@ h5 {
 }
 .restaurants__like .fa-full:hover {
   opacity: 1;
-  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  background: -webkit-linear-gradient(#9356DC 20%, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
