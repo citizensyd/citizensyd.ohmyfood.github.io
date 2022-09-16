@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +18,6 @@
     <link rel="stylesheet" href="public/css/style.css">
     <title>Oh my food !</title>
 </head>
-
 <body>
     <header>
         <div class="header">
@@ -35,7 +33,15 @@
         <div class="menu__image"><img src="public\img\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt="Photo d'une assiette du restaurant À la française à Cité Rouge"></div>
         <section class="menu">
-            <div class="menu__restaurant">La palette du goût<i class="fa-regular fa-heart"></i></div>
+            <div class="menu__restaurant">
+                <p>La palette du goût</p>
+                <div class="menu__like">
+                    <div class=" fa-stack">
+                        <i class="fa-regular fa-heart fa-empty fa-stack-1x"></i>
+                        <i class="fa-solid fa-heart fa-full fa-stack-1x"></i>
+                    </div>
+                </div>
+            </div>
             <div class="menu__model">
                 <div class="menu__title">ENTRÉES</div>
                 <div class="menu__bar">
@@ -93,7 +99,7 @@
                     </div>
                     <div class="menu__square">
                         <i class="fa-solid fa-circle-check"></i>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="menu__dish menu__dish--delay-2">
                     <div class="menu__nameIngredients">

@@ -307,10 +307,6 @@ a, a:visited, a:hover, a:focus, a:active {
   font-family: "Shrikhand", cursive;
   font-size: 30px;
 }
-.menu__restaurant i {
-  position: relative;
-  right: 27px;
-}
 .menu__model {
   width: 90%;
   display: flex;
@@ -431,6 +427,17 @@ a, a:visited, a:hover, a:focus, a:active {
   color: #fff;
   transform: rotate(180deg);
   transition: transform 0.8s;
+}
+.menu__like {
+  cursor: pointer;
+}
+.menu__like .fa-full {
+  opacity: 0;
+  transition: 1s;
+}
+.menu__like .fa-full:hover {
+  opacity: 1;
+  color: #9356DC;
 }
 
 .button {
