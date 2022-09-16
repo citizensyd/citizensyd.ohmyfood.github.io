@@ -11,6 +11,36 @@ a, a:visited, a:hover, a:focus, a:active {
   background: inherit;
 }
 
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
 @keyframes loader {
   100% {
     opacity: 0;
@@ -169,9 +199,6 @@ a, a:visited, a:hover, a:focus, a:active {
   background-color: #f6f6f6;
 }
 .slogan__one {
-  font-family: roboto, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
   padding-top: 45px;
   width: 50%;
 }
@@ -269,9 +296,6 @@ a, a:visited, a:hover, a:focus, a:active {
   position: relative;
   left: 15px;
   top: 10px;
-  font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
 }
 .restaurants__sites {
   position: relative;
