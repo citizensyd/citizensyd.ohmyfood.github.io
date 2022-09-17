@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,19 +19,18 @@
     <link rel="stylesheet" href="public/css/style.css">
     <title>Oh my food !</title>
 </head>
+
 <body>
     <header>
         <div class="header">
-            <div class="header__logo">
-                <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
-                <img src="public\img\logo\ohmyfood@2x.svg" alt="Logo ohmyfood">
-                <img src="public\img\autres\transparent.png" alt="">
-            </div>
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <h1 id="header__desktop--center"><img src="public\img\logo\ohmyfood@2x.svg" alt="ohmyfood"></h1>
         </div>
     </header>
     <main class="menu__background">
         <div class="menu__image"><img src="public\img\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                 alt="Photo d'une assiette du restaurant À la française à Cité Rouge"></div>
+        <div class="menu__center">
         <section class="menu">
             <div class="menu__restaurant">
                 <h1>À la française</h1>
@@ -41,133 +41,137 @@
                     </div>
                 </div>
             </div>
-            <div class="menu__model">
-                <h2 class="menu__title">ENTRÉES</h2>
-                <div class="menu__bar">
-                    <div class="menu__bar--bar"></div>
+            <div class="menu__models">
+                <div class="menu__model">
+                    <h2 class="menu__title">ENTRÉES</h2>
+                    <div class="menu__bar">
+                        <div class="menu__bar--bar"></div>
+                    </div>
+                    <div class="menu__dish menu__dish--delay-1">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Tartare de poulpe acidulé</h3>
+                            <p class="menu__ingredients">Aux zests d'orange</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>25€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                    </div>
+                    <div class="menu__dish menu__dish--delay-2">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Velouté de légumes d'antan</h3>
+                            <p class="menu__ingredients">Carotte, panais, topinambour</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>35€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                    </div>
+                    <div class="menu__dish menu__dish--delay-3">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Soupe à l'oignon</h3>
+                            <p class="menu__ingredients">Revisitée</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>20€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu__dish menu__dish--delay-1">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Tartare de poulpe acidulé</h3>
-                        <p class="menu__ingredients">Aux zests d'orange</p>
+                <div class="menu__model">
+                    <h2 class="menu__title">PLATS</h2>
+                    <div class="menu__bar">
+                        <div class="menu__bar--bar"></div>
                     </div>
-                    <div class="menu__price">
-                        <p>25€</p>
+                    <div class="menu__dish menu__dish--delay-1">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Coquille Saint-Jacques</h3>
+                            <p class="menu__ingredients">Accompagnées d'une purée de panais</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>40€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                     </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
+                    <div class="menu__dish menu__dish--delay-2">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Magret de canard</h3>
+                            <p class="menu__ingredients">Et parmentier de pommes de terres</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>35€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                    </div>
+                    <div class="menu__dish menu__dish--delay-3">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Pigeonneau d'Ille-et-Vilaine</h3>
+                            <p class="menu__ingredients">Sur son lit de gnocchis aux légumes</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>44€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="menu__dish menu__dish--delay-2">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Velouté de légumes d'antan</h3>
-                        <p class="menu__ingredients">Carotte, panais, topinambour</p>
+                <div class="menu__model">
+                    <h2 class="menu__title">DESSERTS</h2>
+                    <div class="menu__bar">
+                        <div class="menu__bar--bar"></div>
                     </div>
-                    <div class="menu__price">
-                        <p>35€</p>
+                    <div class="menu__dish menu__dish--delay-1">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Pétales de violettes glacés</h3>
+                            <p class="menu__ingredients">Et purée de noisettes</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>18€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                     </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
+                    <div class="menu__dish menu__dish--delay-2">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Fondant au chocolat</h3>
+                            <p class="menu__ingredients">Revisité</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>22€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="menu__dish menu__dish--delay-3">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Soupe à l'oignon</h3>
-                        <p class="menu__ingredients">Revisitée</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>20€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
+                    <div class="menu__dish menu__dish--delay-3">
+                        <div class="menu__nameIngredients">
+                            <h3 class="menu__name">Millefeuille croustillant</h3>
+                            <p class="menu__ingredients">Myrtilles et pâte d'amande</p>
+                        </div>
+                        <div class="menu__price">
+                            <p>23€</p>
+                        </div>
+                        <div class="menu__square">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="menu__model">
-                <h2 class="menu__title">PLATS</h2>
-                <div class="menu__bar">
-                    <div class="menu__bar--bar"></div>
-                </div>
-                <div class="menu__dish menu__dish--delay-1">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Coquille Saint-Jacques</h3>
-                        <p class="menu__ingredients">Accompagnées d'une purée de panais</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>40€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-                <div class="menu__dish menu__dish--delay-2">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Magret de canard</h3>
-                        <p class="menu__ingredients">Et parmentier de pommes de terres</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>35€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-                <div class="menu__dish menu__dish--delay-3">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Pigeonneau d'Ille-et-Vilaine</h3>
-                        <p class="menu__ingredients">Sur son lit de gnocchis aux légumes</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>44€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="menu__model">
-                <h2 class="menu__title">DESSERTS</h2>
-                <div class="menu__bar">
-                    <div class="menu__bar--bar"></div>
-                </div>
-                <div class="menu__dish menu__dish--delay-1">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Pétales de violettes glacés</h3>
-                        <p class="menu__ingredients">Et purée de noisettes</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>18€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-                <div class="menu__dish menu__dish--delay-2">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Fondant au chocolat</h3>
-                        <p class="menu__ingredients">Revisité</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>22€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-                <div class="menu__dish menu__dish--delay-3">
-                    <div class="menu__nameIngredients">
-                        <h3 class="menu__name">Millefeuille croustillant</h3>
-                        <p class="menu__ingredients">Myrtilles et pâte d'amande</p>
-                    </div>
-                    <div class="menu__price">
-                        <p>23€</p>
-                    </div>
-                    <div class="menu__square">
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                </div>
-                <div class="menu__button button">Commander</div>
+            <div class="menu__button button">Commander</div>
         </section>
+    </div>
         <footer>
             <div class="footer">
                 <div class="footer__logo"><img src="public\img\logo\ohmyfood-white.png" alt="Logo ohmyfood"></div>
