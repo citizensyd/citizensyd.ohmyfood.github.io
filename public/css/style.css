@@ -17,9 +17,8 @@ h1 {
 }
 
 h2 {
-  font-family: roboto, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
 }
 
 h3 {
@@ -297,6 +296,9 @@ h5 {
 .slogan__one {
   padding-top: 45px;
   width: 50%;
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 @media screen and (min-width: 801px) {
   .slogan__one {
