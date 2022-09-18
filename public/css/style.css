@@ -13,17 +13,19 @@ a, a:visited, a:hover, a:focus, a:active {
 
 h1 {
   font-family: "Shrikhand", cursive;
-  font-size: 30px;
+  font-weight: lighter;
+  font-size: 27px;
 }
 
 h2 {
   font-family: "Shrikhand", cursive;
-  font-size: 30px;
+  font-weight: lighter;
+  font-size: 27px;
 }
 
 h3 {
   font-family: roboto, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -35,8 +37,8 @@ h4 {
 
 h5 {
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
 }
 
@@ -216,18 +218,16 @@ h5 {
   }
 }
 .footer ul,
-.footer h5,
-.footer h4 {
+.footer h5 {
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 801px) {
   .footer ul,
-.footer h5,
-.footer h4 {
+.footer h5 {
     font-family: roboto, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -239,10 +239,16 @@ h5 {
   color: #fff;
   padding-right: 20px;
 }
+.footer__iSize {
+  font-size: 1px;
+}
 @media screen and (min-width: 801px) {
   .footer__iSize {
     font-size: 45px;
   }
+}
+.footer__iSize1 {
+  font-size: 13px;
 }
 .footer h5 {
   display: flex;
@@ -258,6 +264,7 @@ h5 {
   width: 100%;
   color: #353535;
   font-size: 12px;
+  font-weight: 500;
   background: linear-gradient(#cfcfcf 0%, #eaeaea 12%);
 }
 @media screen and (min-width: 801px) {
@@ -295,9 +302,9 @@ h5 {
 }
 .slogan__one {
   padding-top: 45px;
-  width: 50%;
+  width: 70%;
   font-family: roboto, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 @media screen and (min-width: 801px) {
@@ -312,11 +319,11 @@ h5 {
 }
 .slogan__two {
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 300;
   padding-top: 23px;
   padding-bottom: 33px;
-  width: 70%;
+  width: 85%;
 }
 
 .sloganOperation {
@@ -369,7 +376,7 @@ h5 {
   display: flex;
   justify-content: center;
   font-family: roboto, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   padding-top: 54px;
   padding-bottom: 34px;
@@ -446,7 +453,7 @@ h5 {
   padding-bottom: 10px;
   width: 80%;
   font-family: roboto, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 .restaurants__card {
@@ -490,16 +497,19 @@ h5 {
 }
 .restaurants__name {
   position: relative;
-  left: 15px;
-  top: 10px;
+  left: 10px;
+  top: 15px;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 .restaurants__sites {
   position: relative;
-  left: 15px;
-  top: 15px;
+  left: 10px;
+  top: 20px;
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .menu {
@@ -540,7 +550,8 @@ h5 {
   align-items: center;
   width: 90%;
   font-family: "Shrikhand", cursive;
-  font-size: 30px;
+  font-weight: lighter;
+  font-size: 27px;
 }
 .menu__models {
   display: flex;
@@ -564,8 +575,8 @@ h5 {
   width: 95%;
   padding-bottom: 7px;
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 300;
 }
 .menu__bar {
   width: 95%;
@@ -616,30 +627,28 @@ h5 {
 .menu__nameIngredients {
   width: 80%;
   padding-left: 10px;
-  line-height: 20px;
+  line-height: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 300;
 }
 .menu__name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 600;
 }
 .menu__ingredients {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: roboto, sans-serif;
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 100;
 }
 .menu__price {
   position: relative;
@@ -656,10 +665,12 @@ h5 {
 }
 .menu__price p {
   position: relative;
-  top: 10px;
+  top: 14px;
+  right: 3px;
 }
 .menu__button {
   margin-top: 50px;
+  width: 186px;
 }
 .menu__square {
   position: relative;
@@ -711,8 +722,8 @@ h5 {
   background: linear-gradient(#FF79DA 0%, #9356DC 100%);
   border-radius: 25px;
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
 }
 .button:hover {
@@ -748,8 +759,8 @@ h5 {
   display: flex;
   align-items: center;
   font-family: roboto, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 500;
   box-shadow: 0px 7px 15px 7px rgba(0, 0, 0, 0.1);
 }
 @media screen and (min-width: 1025px) {
