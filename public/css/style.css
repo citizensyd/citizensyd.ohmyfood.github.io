@@ -686,7 +686,9 @@ h5 {
 }
 .menu__like .fa-full:hover {
   opacity: 1;
-  color: #9356DC;
+  background: -webkit-linear-gradient(#9356DC 20%, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #menu__bigger {
