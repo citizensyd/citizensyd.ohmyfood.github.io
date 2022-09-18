@@ -143,8 +143,11 @@ h5 {
 }
 .header a {
   position: absolute;
-  top: 15px;
-  left: 40px;
+  top: 17px;
+  left: 26px;
+}
+.header i {
+  color: #353535;
 }
 .header h1 {
   display: flex;
@@ -157,9 +160,6 @@ h5 {
   .header h1 {
     width: 50%;
   }
-}
-.header h1 i {
-  color: #353535;
 }
 .header h1 img {
   height: 40px;
