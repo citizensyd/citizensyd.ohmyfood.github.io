@@ -187,7 +187,7 @@ h5 {
 .footer__logo {
   display: flex;
   width: 85%;
-  padding-top: 23px;
+  padding-top: 30px;
   padding-bottom: 23px;
 }
 @media screen and (min-width: 801px) {
@@ -197,24 +197,48 @@ h5 {
     padding-bottom: 0px;
   }
 }
+.footer__logoCaractere {
+  position: relative;
+  bottom: 20px;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding-top: 0px;
+  padding-bottom: 23px;
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
+  font-size: 27px;
+  font-size: 50px;
+  color: #fff;
+}
+@media screen and (min-width: 801px) {
+  .footer__logoCaractere {
+    visibility: visible;
+  }
+}
 .footer__logo img {
   height: 20px;
 }
 @media screen and (min-width: 801px) {
   .footer__logo img {
-    height: 40px;
+    visibility: hidden;
   }
 }
 .footer ul {
+  position: relative;
   margin-top: 0px;
   width: 85%;
   list-style-type: none;
   padding: 0;
+  bottom: 90px;
 }
 @media screen and (min-width: 801px) {
   .footer ul {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
+    bottom: 30px;
   }
 }
 .footer ul,
@@ -245,7 +269,7 @@ h5 {
 }
 @media screen and (min-width: 801px) {
   .footer__iSize {
-    font-size: 45px;
+    font-size: 25px;
   }
 }
 .footer__iSize1 {
@@ -254,7 +278,6 @@ h5 {
 }
 .footer h5 {
   display: flex;
-  align-items: center;
 }
 
 .localisation {
