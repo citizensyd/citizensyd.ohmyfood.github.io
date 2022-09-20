@@ -146,6 +146,7 @@ h5 {
 @media screen and (min-width: 801px) {
   .header {
     flex-direction: row;
+    width: 100%;
   }
 }
 .header a {
@@ -172,10 +173,6 @@ h5 {
   height: 40px;
 }
 
-#header__desktop--center {
-  width: 100%;
-}
-
 .footer {
   height: 200px;
   display: flex;
@@ -194,13 +191,6 @@ h5 {
   width: 85%;
   padding-top: 30px;
   padding-bottom: 23px;
-}
-@media screen and (min-width: 801px) {
-  .footer__logo {
-    justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
 }
 .footer__logoCaractere {
   position: relative;
@@ -730,7 +720,7 @@ h5 {
 .menu__like .fa-full:hover {
   opacity: 1;
   background: -webkit-linear-gradient(#9356DC 20%, #FF79DA);
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
 }
 
