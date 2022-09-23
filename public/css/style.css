@@ -92,7 +92,7 @@ h5 {
   background-color: rgba(255, 255, 255, 0.9);
   animation: loader 1s;
   animation-delay: 3s;
-  animation-fill-mode: both;
+  animation-fill-mode: forwards;
   z-index: 10000;
   display: flex;
   align-items: center;
@@ -182,6 +182,7 @@ h5 {
   display: flex;
   min-width: 280px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: #353535;
 }
@@ -190,38 +191,24 @@ h5 {
     justify-content: space-evenly;
   }
 }
-.footer__logo {
-  display: flex;
-  width: 85%;
-  padding-top: 30px;
-  padding-bottom: 23px;
-}
 .footer__logoCaractere {
   position: relative;
-  bottom: 20px;
-  visibility: hidden;
   display: flex;
-  justify-content: center;
   width: 85%;
-  padding-top: 0px;
-  padding-bottom: 23px;
   font-family: "Shrikhand", cursive;
   font-weight: lighter;
   font-size: 27px;
-  font-size: 50px;
+  font-size: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
 }
 @media screen and (min-width: 801px) {
   .footer__logoCaractere {
-    visibility: visible;
-  }
-}
-.footer__logo img {
-  height: 20px;
-}
-@media screen and (min-width: 801px) {
-  .footer__logo img {
-    visibility: hidden;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
 .footer ul {
@@ -229,8 +216,7 @@ h5 {
   margin-top: 0px;
   width: 85%;
   list-style-type: none;
-  padding: 0;
-  bottom: 90px;
+  padding: 0px;
 }
 @media screen and (min-width: 801px) {
   .footer ul {
