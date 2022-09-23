@@ -512,6 +512,8 @@ h5 {
 .restaurants__like .fa-full {
   opacity: 0;
   transition: 1s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .restaurants__like .fa-full:hover {
   opacity: 1;
@@ -735,14 +737,23 @@ h5 {
   opacity: 0;
   transition: 1s;
   background: -webkit-linear-gradient(#9356DC 20%, #FF79DA);
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
 }
 .menu__like .fa-full:hover {
   opacity: 1;
   background: -webkit-linear-gradient(#9356DC 20%, #FF79DA);
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
+}
+
+#menu__bigger {
+  height: 1270px;
+}
+@media screen and (min-width: 801px) {
+  #menu__bigger {
+    height: 650px;
+  }
 }
 
 .button {
