@@ -1,3 +1,4 @@
+![Screenshot](public/img/autres/ohmyfood_tablette.png)
 # ohmyfood
 Openclassroom Projet 3 Dynamisez une page web avec des animations CSS
 
