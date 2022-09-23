@@ -103,7 +103,6 @@ h5 {
 .loader-bars {
   display: flex;
 }
-
 .loader-bars::before {
   content: "";
   width: 10px;
@@ -112,7 +111,6 @@ h5 {
   background-color: #9356DC;
   animation: grow 1s linear infinite;
 }
-
 .loader-bars::after {
   content: "";
   position: relative;
@@ -597,16 +595,17 @@ h5 {
   overflow: hidden;
 }
 .menu__title {
+  display: flex;
+  flex-direction: column;
   width: 95%;
   padding-bottom: 7px;
   font-family: roboto, sans-serif;
   font-size: 15px;
   font-weight: 300;
 }
-.menu__bar {
-  width: 95%;
-}
-.menu__bar--bar {
+.menu__title::after {
+  content: "";
+  margin-top: 5px;
   width: 40px;
   height: 3px;
   background-color: #99E2D0;
@@ -749,7 +748,7 @@ h5 {
 #menu__bigger {
   height: 1270px;
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1025px) {
   #menu__bigger {
     height: 650px;
   }
