@@ -407,8 +407,12 @@ h5 {
 }
 .operation__text {
   display: flex;
-  justify-content: flex-start;
   width: 80%;
+}
+@media screen and (min-width: 1025px) {
+  .operation__text {
+    justify-content: center;
+  }
 }
 
 .restaurants {
@@ -479,6 +483,12 @@ h5 {
   font-family: roboto, sans-serif;
   font-size: 24px;
   font-weight: 700;
+}
+@media screen and (min-width: 1025px) {
+  .restaurants__title {
+    display: flex;
+    justify-content: center;
+  }
 }
 .restaurants__card {
   width: 100%;
