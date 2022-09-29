@@ -460,10 +460,15 @@ h5 {
 .restaurants__title {
   padding-top: 60px;
   padding-bottom: 10px;
-  width: 80%;
+  width: 90%;
   font-family: roboto, sans-serif;
   font-size: 24px;
   font-weight: 700;
+}
+@media screen and (min-width: 801px) {
+  .restaurants__title {
+    width: 95%;
+  }
 }
 @media screen and (min-width: 1025px) {
   .restaurants__title {
